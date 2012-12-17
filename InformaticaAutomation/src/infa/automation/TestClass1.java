@@ -68,7 +68,7 @@ public class TestClass1 {
 		}
 		
 		try{
-			BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\c152783\\workspace\\InformaticaAutomation\\mapping_sample.txt"));
+			BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\c152783\\git\\InfaAutomation\\InformaticaAutomation\\mapping_sample.txt"));
 			PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(newDir.getPath()+"\\"+"m_sample.xml")));
 			while ((in_line = reader.readLine()) != null ){
 				in_line = in_line.replaceAll("@@REPLACE_FOR_UDO_STREAM@@", udo_temp); // inputs the udo ports into the steamer
