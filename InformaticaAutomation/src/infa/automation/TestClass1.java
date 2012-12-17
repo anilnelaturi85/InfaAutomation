@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import jxl.*;
 import jxl.read.biff.*;
 
-// developed by GOD
+
 
 public class TestClass1 {
 	// instance variables
